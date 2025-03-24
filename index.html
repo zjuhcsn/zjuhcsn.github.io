@@ -1,0 +1,219 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>WEDM's Blog in ZJU</title><meta name="author" content="杭城少年"><meta name="copyright" content="杭城少年"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<meta property="og:title" content="WEDM&#39;s Blog in ZJU">
+<meta property="og:url" content="http://zjuhcsn.github.io/index.html">
+<meta property="og:site_name" content="WEDM&#39;s Blog in ZJU">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://s21.ax1x.com/2024/09/26/pAlle00.jpg">
+<meta property="article:author" content="杭城少年">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s21.ax1x.com/2024/09/26/pAlle00.jpg"><link rel="shortcut icon" href="https://s21.ax1x.com/2024/09/26/pAll5cj.jpg"><link rel="canonical" href="http://zjuhcsn.github.io/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.0.0-b2"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        if (name && globalFn[key][name]) return
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.12.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'WEDM\'s Blog in ZJU',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2025-03-24 13:39:33'
+}</script><meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://s21.ax1x.com/2024/09/26/pAlle00.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">21</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 缤纷首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 岁月轨迹</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 文章标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类讨论</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 啥也没有</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url(https://s21.ax1x.com/2024/09/26/pAll5cj.jpg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><img class="site-icon" src="https://s21.ax1x.com/2024/09/26/pAlle00.jpg" alt="Logo"><span class="site-name">WEDM's Blog in ZJU</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 缤纷首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 岁月轨迹</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 文章标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类讨论</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 啥也没有</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="site-info"><h1 id="site-title">WEDM's Blog in ZJU</h1><div id="site-subtitle"><span id="subtitle"></span></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts nc" id="recent-posts"><div class="recent-post-items"><div class="recent-post-item"><div class="post_cover left"><a href="/2025/03/24/%E9%AB%98%E5%85%89%E7%95%99%E6%A1%A3/" title="高光留档"><img class="post-bg" src="https://s21.ax1x.com/2024/09/26/pAll5cj.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="高光留档"></a></div><div class="recent-post-info"><a class="article-title" href="/2025/03/24/%E9%AB%98%E5%85%89%E7%95%99%E6%A1%A3/" title="高光留档">高光留档</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-03-24T05:39:05.000Z" title="发表于 2025-03-24 13:39:05">2025-03-24</time></span></div><div class="content"></div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2025/03/24/%E6%8D%A2%E6%9C%BA%E6%8C%87%E5%8D%97pro/" title="换机指南pro"><img class="post-bg" src="https://s21.ax1x.com/2024/09/26/pAll5cj.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="换机指南pro"></a></div><div class="recent-post-info"><a class="article-title" href="/2025/03/24/%E6%8D%A2%E6%9C%BA%E6%8C%87%E5%8D%97pro/" title="换机指南pro">换机指南pro</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-03-24T05:08:33.000Z" title="发表于 2025-03-24 13:08:33">2025-03-24</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E6%95%B0%E7%A0%81%E8%A7%A3%E8%AF%BB/">数码解读</a></span></div><div class="content">换机指南(二)各价位手机推荐(未特别标注均为16+512，pdd百亿补贴叠加国补后的价格，可能存在微小偏差)记得买手机都要录开箱视频1000-2000 这个价位有很多适合的中端机，比如     iqooZ9turbo长续航  1700左右 骁龙8sgen3  6400mah+80W 还有144hz高刷，适合当游戏机    红米note14pro+  1700左右 骁龙7sgen3   6200mah+90W 有直立长焦，拍照在这个价位非常能打   2000-3000 该价位是最多选择的，有很多跳水次旗舰和中端大满贯可以参考     一加ace3pro(超跑瓷) 2000左右 骁龙8gen3 6100mah+100W 价格跳水那么多，想当年可是一代游戏神机啊    红米k80  2500左右 骁龙8gen3 6550mah+90W 还有2K屏幕和超声波指纹，除了拍照(远)已经非常全面了   荣耀300pro  2600左右 骁龙8gen3 5300mah+100W 还有无线充电 有直立长焦，在荣耀里算是性价比之王了   真我gt7pro (12+512)2900左右 骁龙8...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2025/03/24/%E6%8D%A2%E6%9C%BA%E6%8C%87%E5%8D%97/" title="换机指南"><img class="post-bg" src="https://s21.ax1x.com/2024/09/26/pAll5cj.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="换机指南"></a></div><div class="recent-post-info"><a class="article-title" href="/2025/03/24/%E6%8D%A2%E6%9C%BA%E6%8C%87%E5%8D%97/" title="换机指南">换机指南</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-03-24T05:01:41.000Z" title="发表于 2025-03-24 13:01:41">2025-03-24</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E6%95%B0%E7%A0%81%E8%A7%A3%E8%AF%BB/">数码解读</a></span></div><div class="content">换机指南(一)由于换机欲望，WEDM 这半年以来对手机领域颇多关注略有了解，闲来无事整理成文，希望能帮助到即将换机或未来想换机的朋友们 前置知识简要列举一些手机的核心配置1. 处理器 (SOC) 处理器关系到手机的极致性能(如游戏帧率，功耗，发热，运行流畅等) 手机成本的大头，如骁龙8 elite 成本约1200 rmb 目前主流处理器主要为高通的骁龙，联发科的天玑 处理器一般而言一年迭代一次，很多是挤牙膏式升级，提升幅度很小 其实对于非游戏党，大多处理器都是性能过剩，骁龙8gen2左右已经足够满足大多数人的日常需求了，不过不推荐任何骁龙7的手机（点名某100,200,300标准版，连用了三年7gen3） 另外，哪怕是同一颗处理器，在不同手机厂商的调教(适配)下，性能释放与功耗也不尽相同， 目前，一般认为 骁龙8 elite(至尊版)&gt;天玑9400&gt;骁龙8gen3≈天玑9300+ &gt;骁龙8gen2&gt;天玑9200+ 特别注意s，可以理解为是降频版芯片，如骁龙8sgen3，其能效远不如8gen3甚至略逊于8gen2(有点难绷)  2....</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2025/03/08/%E6%9D%90%E5%8A%9B%E5%AE%9E%E9%AA%8C/" title="材力实验"><img class="post-bg" src="https://s21.ax1x.com/2024/09/26/pAll5cj.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="材力实验"></a></div><div class="recent-post-info"><a class="article-title" href="/2025/03/08/%E6%9D%90%E5%8A%9B%E5%AE%9E%E9%AA%8C/" title="材力实验">材力实验</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-03-08T08:35:28.000Z" title="发表于 2025-03-08 16:35:28">2025-03-08</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%90%84%E7%A7%8D%E5%AE%9E%E9%AA%8C/">各种实验</a></span></div><div class="content">材力实验(0.5学分) 大二夏 还没上呢  </div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2025/03/08/%E5%A4%A7%E7%89%A9%E5%AE%9E%E9%AA%8C/" title="大物实验"><img class="post-bg" src="https://s21.ax1x.com/2024/09/26/pAll5cj.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="大物实验"></a></div><div class="recent-post-info"><a class="article-title" href="/2025/03/08/%E5%A4%A7%E7%89%A9%E5%AE%9E%E9%AA%8C/" title="大物实验">大物实验</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-03-08T08:35:18.000Z" title="发表于 2025-03-08 16:35:18">2025-03-08</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%90%84%E7%A7%8D%E5%AE%9E%E9%AA%8C/">各种实验</a></span></div><div class="content">大学物理实验 （1.5学分） 大二秋冬简单介绍 每周 预习报告1h，实验操作1.5h，数据处理1.5h，需要消耗大量时间 第一节课为绪论，后面一共做14个实验，分光计示波器必选，哪个实验第几周可以自己定 选课系统为先到先得，一般好实验一下就被抢没了。不过放心，它至少不会崩 什么叫好实验：比如一会就能完成，比如处理数据方便，比如老师给分宽松，比如你对那方面特别感兴趣 慎选光学实验，不过分光计是必选的，没办法 其实并没有太多大物的前置知识，很多都是依葫芦画瓢即可，完全不用担心 可以下次实验前交报告，这样可以避免空跑 避雷zhj老师，坑中坑 可以参考98 Flog司马前辈的经验帖  期末考试 闭卷，占比30% 可以对照历年卷复习，很多题型都大差不差 也可以不复习的其实()  </div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2025/03/08/%E4%B8%96%E7%95%8C%E7%BB%8F%E6%B5%8E%E5%AF%BC%E8%AE%BA/" title="世界经济导论"><img class="post-bg" src="https://s21.ax1x.com/2024/09/26/pAll5cj.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="世界经济导论"></a></div><div class="recent-post-info"><a class="article-title" href="/2025/03/08/%E4%B8%96%E7%95%8C%E7%BB%8F%E6%B5%8E%E5%AF%BC%E8%AE%BA/" title="世界经济导论">世界经济导论</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-03-08T08:08:24.000Z" title="发表于 2025-03-08 16:08:24">2025-03-08</time></span></div><div class="content">...</div></div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/#content-inner">4</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info is-center"><div class="avatar-img"><img src="https://s21.ax1x.com/2024/09/26/pAlle00.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">杭城少年</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">21</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来到浙江大学 WEDM 的博客</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2025/03/24/%E9%AB%98%E5%85%89%E7%95%99%E6%A1%A3/" title="高光留档"><img src="https://s21.ax1x.com/2024/09/26/pAll5cj.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="高光留档"/></a><div class="content"><a class="title" href="/2025/03/24/%E9%AB%98%E5%85%89%E7%95%99%E6%A1%A3/" title="高光留档">高光留档</a><time datetime="2025-03-24T05:39:05.000Z" title="发表于 2025-03-24 13:39:05">2025-03-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/03/24/%E6%8D%A2%E6%9C%BA%E6%8C%87%E5%8D%97pro/" title="换机指南pro"><img src="https://s21.ax1x.com/2024/09/26/pAll5cj.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="换机指南pro"/></a><div class="content"><a class="title" href="/2025/03/24/%E6%8D%A2%E6%9C%BA%E6%8C%87%E5%8D%97pro/" title="换机指南pro">换机指南pro</a><time datetime="2025-03-24T05:08:33.000Z" title="发表于 2025-03-24 13:08:33">2025-03-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/03/24/%E6%8D%A2%E6%9C%BA%E6%8C%87%E5%8D%97/" title="换机指南"><img src="https://s21.ax1x.com/2024/09/26/pAll5cj.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="换机指南"/></a><div class="content"><a class="title" href="/2025/03/24/%E6%8D%A2%E6%9C%BA%E6%8C%87%E5%8D%97/" title="换机指南">换机指南</a><time datetime="2025-03-24T05:01:41.000Z" title="发表于 2025-03-24 13:01:41">2025-03-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/03/08/%E6%9D%90%E5%8A%9B%E5%AE%9E%E9%AA%8C/" title="材力实验"><img src="https://s21.ax1x.com/2024/09/26/pAll5cj.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="材力实验"/></a><div class="content"><a class="title" href="/2025/03/08/%E6%9D%90%E5%8A%9B%E5%AE%9E%E9%AA%8C/" title="材力实验">材力实验</a><time datetime="2025-03-08T08:35:28.000Z" title="发表于 2025-03-08 16:35:28">2025-03-08</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/03/08/%E5%A4%A7%E7%89%A9%E5%AE%9E%E9%AA%8C/" title="大物实验"><img src="https://s21.ax1x.com/2024/09/26/pAll5cj.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="大物实验"/></a><div class="content"><a class="title" href="/2025/03/08/%E5%A4%A7%E7%89%A9%E5%AE%9E%E9%AA%8C/" title="大物实验">大物实验</a><time datetime="2025-03-08T08:35:18.000Z" title="发表于 2025-03-08 16:35:18">2025-03-08</time></div></div></div></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E4%B8%8A%E8%BF%87%E7%9A%84%E8%AF%BE/" style="font-size: 1.5em; color: #99a9bf">上过的课</a> <a href="/tags/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/" style="font-size: 1.1em; color: #999">乱七八糟</a> <a href="/tags/%E5%AD%A6%E9%95%BF%E7%BB%84%E8%AE%B0/" style="font-size: 1.4em; color: #99a5b6">学长组记</a> <a href="/tags/%E6%95%B0%E7%A0%81%E8%A7%A3%E8%AF%BB/" style="font-size: 1.2em; color: #999da3">数码解读</a> <a href="/tags/%E5%90%84%E7%A7%8D%E5%AE%9E%E9%AA%8C/" style="font-size: 1.3em; color: #99a1ac">各种实验</a> <a href="/tags/%E4%B8%AA%E4%BA%BA%E6%9D%82%E8%B0%88/" style="font-size: 1.4em; color: #99a5b6">个人杂谈</a></div></div><div class="card-widget card-archives">
+    <div class="item-headline">
+      <i class="fas fa-archive"></i>
+      <span>归档</span>
+      
+    </div>
+    <ul class="card-archive-list">
+  
+      <li class="card-archive-list-item">
+        <a class="card-archive-list-link" href="/archives/2025/03/">
+          <span class="card-archive-list-date">三月 2025</span>
+          <span class="card-archive-list-count">7</span>
+        </a>
+      </li>
+    
+      <li class="card-archive-list-item">
+        <a class="card-archive-list-link" href="/archives/2025/01/">
+          <span class="card-archive-list-date">一月 2025</span>
+          <span class="card-archive-list-count">1</span>
+        </a>
+      </li>
+    
+      <li class="card-archive-list-item">
+        <a class="card-archive-list-link" href="/archives/2024/09/">
+          <span class="card-archive-list-date">九月 2024</span>
+          <span class="card-archive-list-count">8</span>
+        </a>
+      </li>
+    
+      <li class="card-archive-list-item">
+        <a class="card-archive-list-link" href="/archives/2024/08/">
+          <span class="card-archive-list-date">八月 2024</span>
+          <span class="card-archive-list-count">5</span>
+        </a>
+      </li>
+    </ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">21</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-03-24T05:39:33.365Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2024 - 2025 By 杭城少年</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.0.0-b2"></script><script src="/js/main.js?v=5.0.0-b2"></script><div class="js-pjax"><script>window.typedJSFn = {
+  init: str => {
+    window.typed = new Typed('#subtitle', Object.assign({
+      strings: str,
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50,
+    }, null))
+  },
+  run: subtitleType => {
+    if (true) {
+      if (typeof Typed === 'function') {
+        subtitleType()
+      } else {
+        btf.getScript('https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.min.js').then(subtitleType)
+      }
+    } else {
+      subtitleType()
+    }
+  }
+}
+btf.addGlobalFn('pjaxSendOnce', () => { typed.destroy() }, 'typedDestroy')
+</script><script>function subtitleType () {
+  btf.getScript('https://sdk.jinrishici.com/v2/browser/jinrishici.js').then(() => {
+    jinrishici.load(result =>{
+      if (true) {
+        const sub = []
+        const content = result.data.content
+        sub.unshift(content)
+        typedJSFn.init(sub)
+      } else {
+        document.getElementById('subtitle').textContent = result.data.content
+      }
+    })
+  })
+}
+typedJSFn.run(subtitleType)
+</script></div><canvas class="fireworks" mobile="true"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/fireworks.min.js"></script><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="true"></script><script defer="defer" id="fluttering_ribbon" mobile="true" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/canvas-fluttering-ribbon.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>

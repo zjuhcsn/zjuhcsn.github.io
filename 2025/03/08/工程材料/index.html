@@ -1,0 +1,699 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>工程材料 | WEDM's Blog in ZJU</title><meta name="author" content="杭城少年"><meta name="copyright" content="杭城少年"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="贡菜复习 WEDM WEDM 和莲莲以及几位机械的同学一起拼凑出了一张回忆卷，供参考，另外24级开始，本专业培养方案已经砍去这门课了，只有机械同学需要继续上，真是多灾多难的23级啊  前两章杂碎知识 常见名词：刚度：材料受力时抵抗弹性变形的能力   强度：材料在外力作用下抵抗变形和破坏的能力。  屈服强度（屈服点应力）：材料发生塑性变形（屈服，s点）时的应力值。 条件屈服强度：残余变形量为0.2%">
+<meta property="og:type" content="article">
+<meta property="og:title" content="工程材料">
+<meta property="og:url" content="http://zjuhcsn.github.io/2025/03/08/%E5%B7%A5%E7%A8%8B%E6%9D%90%E6%96%99/index.html">
+<meta property="og:site_name" content="WEDM&#39;s Blog in ZJU">
+<meta property="og:description" content="贡菜复习 WEDM WEDM 和莲莲以及几位机械的同学一起拼凑出了一张回忆卷，供参考，另外24级开始，本专业培养方案已经砍去这门课了，只有机械同学需要继续上，真是多灾多难的23级啊  前两章杂碎知识 常见名词：刚度：材料受力时抵抗弹性变形的能力   强度：材料在外力作用下抵抗变形和破坏的能力。  屈服强度（屈服点应力）：材料发生塑性变形（屈服，s点）时的应力值。 条件屈服强度：残余变形量为0.2%">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://s21.ax1x.com/2024/09/26/pAll5cj.jpg">
+<meta property="article:published_time" content="2025-03-08T08:08:12.000Z">
+<meta property="article:modified_time" content="2025-03-08T08:27:24.794Z">
+<meta property="article:author" content="杭城少年">
+<meta property="article:tag" content="上过的课">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s21.ax1x.com/2024/09/26/pAll5cj.jpg"><link rel="shortcut icon" href="https://s21.ax1x.com/2024/09/26/pAll5cj.jpg"><link rel="canonical" href="http://zjuhcsn.github.io/2025/03/08/%E5%B7%A5%E7%A8%8B%E6%9D%90%E6%96%99/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.0.0-b2"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        if (name && globalFn[key][name]) return
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.12.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '工程材料',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2025-03-08 16:27:24'
+}</script><meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://s21.ax1x.com/2024/09/26/pAlle00.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">21</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 缤纷首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 岁月轨迹</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 文章标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类讨论</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 啥也没有</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://s21.ax1x.com/2024/09/26/pAll5cj.jpg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><img class="site-icon" src="https://s21.ax1x.com/2024/09/26/pAlle00.jpg" alt="Logo"><span class="site-name">WEDM's Blog in ZJU</span></a><a class="nav-page-title" href="/"><span class="site-name">工程材料</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 缤纷首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 岁月轨迹</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 文章标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类讨论</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 啥也没有</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">工程材料</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2025-03-08T08:08:12.000Z" title="发表于 2025-03-08 16:08:12">2025-03-08</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-03-08T08:27:24.794Z" title="更新于 2025-03-08 16:27:24">2025-03-08</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p><font face="楷体" color=blue size=10><center>贡菜复习</center></font></p>
+<p><font face="隶书" color=red size=6><center>WEDM</center></font></p>
+<p><strong>WEDM 和莲莲以及几位机械的同学一起拼凑出了一张回忆卷，供参考，另外24级开始，本专业培养方案已经砍去这门课了，只有机械同学需要继续上，真是多灾多难的23级啊</strong></p>
+<hr>
+<h2 id="前两章"><a href="#前两章" class="headerlink" title="前两章"></a>前两章</h2><h4 id="杂碎知识"><a href="#杂碎知识" class="headerlink" title="杂碎知识"></a>杂碎知识</h4><blockquote>
+<p><strong>常见名词：</strong><br>刚度：材料受力时抵抗弹性变形的能力  </p>
+<p>强度：材料在外力作用下抵抗变形和破坏的能力。 </p>
+<p>屈服强度（屈服点应力）：材料发生塑性变形（屈服，s点）时的应力值。</p>
+<p>条件屈服强度：残余变形量为0.2%时的应力值。</p>
+<p>抗拉强度：材料断裂前（在z点断裂）所承受的最大应力值 </p>
+<p>塑性：材料受力破坏前可承受最大塑性变形的能力</p>
+<p>硬度：材料抵抗表面局部塑性变形压痕、划痕的能力 </p>
+<p>疲劳强度：材料在低于屈服强度的重复交变应力作用下发生断裂的现象</p>
+<p>弹性：材料在外力作用下产生形变，但外力撤走后，形变消失，不产生永久形变的性质 </p>
+</blockquote>
+<ul>
+<li>工程材料可分为金属材料、无机非金属材料、高分子材料、复合材料</li>
+<li>用面缩率表示塑性比伸长率更接近真实变形 </li>
+<li>材料的刚度越大，材料产生一定量的弹性变形所需要的应力就越大</li>
+<li>弹性变形随载荷的去除而消失</li>
+<li>刚度E表征材料抵抗弹性变形的能力</li>
+<li>材料在外力作用下抵抗变形与断裂的能力称为强度<blockquote>
+<p>提高零件抗疲劳的方法 :<br>可通过合理的选材，细化晶粒、减少材料和零件的缺陷；<br>改善零件的结构设计，避免应力集中；<br>减少零件的表面粗糙度；<br>对零件表面进行强化处理。</p>
+</blockquote>
+</li>
+<li>布氏硬度的优点：测量误差小，数据稳定。<br>缺点：压痕大，不能用于太薄件、成品件。<br>适测量：退火、正火、调质钢，铸铁及有色金属的硬度。</li>
+<li>洛氏硬度的优点：操作简便，压痕小，适用范围广。<br>缺点：测量结果分散度大</li>
+</ul>
+<h4 id="晶体-滑移"><a href="#晶体-滑移" class="headerlink" title="晶体&amp;滑移"></a>晶体&amp;滑移</h4><ul>
+<li>晶胞：能代表晶格原子排列规律的最小几何单元</li>
+<li>原子半径：晶胞中原子密度最大方向上相邻原子间距的一半。</li>
+<li>致密度：晶胞中原子本身所占的体积百分数。<blockquote>
+<p>体心立方结构：原子半径： 晶胞原子数：2  配位数：8 致密度：0.68</p>
+<p>面心立方结构：原子半径：晶胞原子数：4 配位数：12 致密度：0.74</p>
+<p>密排六方晶格：原子半径：  晶胞原子数：6 配位数：12 致密度：0.74</p>
+</blockquote>
+</li>
+<li>晶粒越细小，晶界面积越大</li>
+<li>位错使滑移所需切应力大大下降。</li>
+<li>位错及其易动性使实际晶体的屈服强度大大低于完美晶体的屈服强度。</li>
+<li>晶粒的大小取决于晶核的形成速度和长大速度。</li>
+<li>单位时间、单位体积内形成的晶核数目叫形核率(N)。<br>单位时间内晶核生长的长度叫长大速度(G)。<br>N&#x2F;G比值越大，晶粒越细小。<br>因此，凡是促进形核、抑制长大的因素，都能细化晶粒</li>
+<li>滑移只有在切应力作用下才能进行，只有当作用在晶面上的切应力达到临界值时，材料才会发生塑性变形</li>
+<li>正应力只能造成晶体的弹性变形或断裂，而不能引起晶体的塑性变形</li>
+<li>滑移系越多，金属发生滑移的可能性越大，塑性越好，其中滑移方向对塑性的贡献比滑移面更大。<br>因此，金属的塑性，面心立方晶格好于体心立方晶格，体心立方晶格好于密排六方晶格。</li>
+<li>晶界越多，多晶体的塑性变形抗力越高</li>
+<li>体心立方晶格的晶胞中独立原子数为 2</li>
+<li>在面心立方晶格中，原子致密度最大的晶面是 111</li>
+<li>固溶体的晶体结构与组成它的溶剂元素的晶体结构相同</li>
+<li>滑移系越多，滑移越可能发生，金属塑性越好</li>
+</ul>
+<h4 id="金属"><a href="#金属" class="headerlink" title="金属"></a>金属</h4><ul>
+<li><p>细化铸态金属晶粒的措施：增大过冷度（N&#x2F;G值增加）；变质处理</p>
+</li>
+<li><p>六种固溶体：间隙固溶体，有限固溶体，无序固溶体，置换固溶体，无限固溶体，有序固溶体</p>
+</li>
+<li><p>与纯金属相比，固溶体的强度、硬度高，塑性、韧性低。但与化合物相比，其硬度要低得多，而塑性和韧性则要高得多。</p>
+</li>
+<li><p>纯金属都有一个理论结晶温度T0（熔点或平衡结晶温度），结晶只有在T0以下的实际结晶温度下才能进行</p>
+</li>
+<li><p>液态金属在理论结晶温度以下开始结晶的现象称过冷。理论结晶温度与实际结晶温度的差称过冷度。过冷度大小与冷却速度有关，过冷度随冷却速度的增大而增大。</p>
+</li>
+<li><p>金属的结晶是原子从无序排列的液态转变为有序排列的固态（结晶态）的过程</p>
+<blockquote>
+<p>塑性变形对金属性能的影响：</p>
+<ol>
+<li>产生加工硬化现象<br>随冷塑性变形量增加，金属的强度、硬度提高，塑性、韧性下降的现象称加工硬化。</li>
+<li>使金属的性能产生各向异性</li>
+<li>产生残余内应力</li>
+</ol>
+</blockquote>
+</li>
+<li><p>在回复阶段，金属组织变化不明显，其强度、硬度略有下降，塑性略有提高，但内应力、电阻率等显著下降。<br>工业上，常利用回复现象将冷变形金属低温加热，既稳定组织又保留加工硬化，这种热处理方法称去应力退火。</p>
+</li>
+<li><p>纯金属的最低再结晶温度与其熔点之间的近似关系：T再 ≈ 0.4T熔,金属熔点越高，T再也越高。</p>
+</li>
+<li><p>消除加工硬化的热处理称为再结晶退火。再结晶退火温度比再结晶温度高100 ~ 200 ℃。 </p>
+</li>
+<li><p>在金属学中，冷热加工的界限是以再结晶温度来划分的。低于再结晶温度的加工称为冷加工（易产生加工硬化），而高于再结晶温度的加工称为热加工</p>
+</li>
+<li><p>热加工可使组织致密、成分均匀、晶粒细化，力学性能提高。 </p>
+</li>
+<li><p>晶粒的大小称为晶粒度，N&#x2F;G比值越大，晶粒越细小，晶粒愈细，晶界愈多，位错运动愈困难，强度与硬度愈高。<br>细小的晶粒使金属具有较好的塑性和韧性。<br>晶粒细化可提高金属强度、硬度而不降低塑性、韧性。</p>
+</li>
+<li><p>过冷度越大，则N&#x2F;G比值越大，因而晶粒越细小；异质晶核：（变质剂），促进非均匀形核来细化晶粒，主要作用是阻止硅的长大来细化合金晶粒。</p>
+</li>
+<li><p>振动：促进形核，破碎枝晶，从而细晶强化</p>
+</li>
+<li><p>固溶强化：溶质原子溶入金属基体而形成固溶体</p>
+</li>
+<li><p>合金中的固溶体一般塑性较好,而金属间化合物的硬度较高</p>
+</li>
+<li><p>间隙固溶体与间隙化合物的结构和性能都不同</p>
+</li>
+<li><p>两种元素组成固溶体，则固溶体的晶体结构与溶剂的相同</p>
+</li>
+<li><p>机械混合物是由不同物质的简单混合组成，它们之间没有发生化学反应，各组分保持原有的性质可以通过物理方法分离</p>
+</li>
+<li><p>索氏体是珠光体组织中的一种，它是由铁素体和渗碳体组成的层片状机械混合物</p>
+</li>
+<li><p>能使单晶体产生塑性变形的应力为切应力</p>
+</li>
+<li><p>常见的塑性变形加工方式有哪些轧制、冲压</p>
+</li>
+<li><p>金属在塑性变形中随变形程度增大，金属的强度、硬度升高，而塑性和韧性下降。其原因是由于滑移面上的碎晶块和附近晶格的强烈扭曲，增大了滑移阻力，使继续滑移难以进行。这种随变形程度增加，强度、硬度升高而塑性、韧性下降的现象称为冷变形强化或加工硬化</p>
+</li>
+<li><p>金属材料抵抗塑性变形的能力主要取决于材料的强度</p>
+</li>
+<li><p>金属的热塑性变形对金属组织和性能的影响包括<br>① 改善铸态的组织和性能 ② 细化晶粒 ③ 形成纤维组织。</p>
+</li>
+<li><p>再结晶退火可消除加工硬化</p>
+</li>
+<li><p>再结晶金属能降低材料的硬度，提高塑性和韧性，适合用于冲压件生产</p>
+</li>
+<li><p>再结晶虽包含形核和长大过程，但它不是一个相变过程</p>
+</li>
+<li><p>变形金属再结晶后，形成等轴晶，塑性升高</p>
+</li>
+<li><p>金属在进行热加工时不会产生加工硬化现象</p>
+</li>
+<li><p>金属冷热加工划分的界限是再结晶温度</p>
+</li>
+<li><p>铜只有通过冷加工并经随后热加工才能使晶粒细化，而铁则不需要冷加工，只需加热到一定温度就可使晶粒细化，其原因是铁在固态下有同素异构转变，而铜没有</p>
+</li>
+</ul>
+<h3 id="铁碳合金"><a href="#铁碳合金" class="headerlink" title="铁碳合金"></a>铁碳合金</h3><ul>
+<li><p>含碳量为0.0218% <del>2.11%的称钢。<br>含碳量为 2.11%</del> 6.69%的称铸铁</p>
+</li>
+<li><p>从液相中结晶出单一固相的转变称为匀晶转变或匀晶反应</p>
+</li>
+<li><p><strong>杠杆定律</strong>：设合金的重量为1，液相重量为QL，固相重量为Q<br>则QL + Q &#x3D;1 ， QL x1 + Q x2 &#x3D;x</p>
+</li>
+<li><p>固溶体的溶解度随温度降低而下降。</p>
+</li>
+<li><p>在共晶线上，凡成分位于共晶点以左的合金称亚共晶合金，位于共晶点以右的合金称过共晶合金。</p>
+</li>
+<li><p>匀晶：两组液元在态和固态下均无限互溶</p>
+</li>
+<li><p>共晶：两组元在液态下完全互溶，在固态下有限互溶，并发生共晶反应</p>
+</li>
+<li><p>包晶：两组元在液态下完全互溶，在固态下有限互溶，并发生包晶反应</p>
+</li>
+<li><p>共析转变也是固态相变。<br>最常见的共析转变是铁碳合金中的珠光体转变</p>
+</li>
+<li><p>能够无限互溶的两组元素所构成的二元合金相图必定是匀晶相图</p>
+</li>
+<li><p>在二元相图上，液——固相线间距越小、越接近共晶成分的合金越具有良好的铸造性能</p>
+</li>
+<li><p>在平衡条件下，表示合金的成分、温度、合金相之间的关系图解，称为合金相图</p>
+</li>
+<li><p>在铅锡合金相图中，β是铅溶于锡形成的固溶体</p>
+</li>
+<li><p>Cu-Ni合金属于匀晶相图</p>
+</li>
+<li><p>具有匀晶相图的合金固态时的相结构属于固溶体</p>
+</li>
+<li><p>具有匀晶型相图的单相固溶体合金锻造性能好</p>
+</li>
+<li><p>非共晶成分合金在结晶时，剩余液相的成分是不断变化的</p>
+</li>
+<li><p>纯金属和共晶成分的合金铸造时不易形成缩松</p>
+</li>
+<li><p>凡是成分线和共晶线相交的合金，结晶时都会发生共晶反应，组织中都有共晶产物</p>
+</li>
+<li><p>共析反应：固相 → 固相1+固相2</p>
+</li>
+<li><p>共晶反应：液相 → 固相1+固相2</p>
+</li>
+<li><p>杠杆定律只适用于平衡状态的两相区。</p>
+</li>
+<li><p>二元合金发生共析转变时，各相的成分和质量均发生改变</p>
+</li>
+<li><p>共析反应指在一定的温度下,一定成分的固相同时析出两种一定成分的固相的反应</p>
+</li>
+<li><p>碳在α-Fe中的固溶体称铁素体, </p>
+</li>
+<li><p><strong>铁素体</strong>是体心立方间隙固溶体。铁素体的溶碳能力很低，在727℃时最大为0.0218%，室温下仅为0.0008%</p>
+</li>
+<li><p>碳在 -Fe中的固溶体称奥氏体。用A或  表示。<br>是面心立方晶格的间隙固溶体。溶碳能力比铁素体大，1148℃时最大为2.11%。727 ℃时为0.77%</p>
+</li>
+<li><p>钢材热加工都在 区进行。<br>碳钢室温组织中无奥氏体。</p>
+</li>
+<li><p><strong>渗碳体</strong>：Fe3C，含碳6.69%，间隙化合物</p>
+</li>
+<li><p>由于碳在-Fe中的溶解度很小，因而常温下碳在铁碳合金中主要以Fe3C或石墨的形式存在</p>
+</li>
+<li><p><strong>珠光体</strong>：铁素体（F）与渗碳体（Fe3C）的机械混合物，用P表示。<br>珠光体的组织特点是两相呈片层相间分布</p>
+</li>
+<li><p>高温莱氏体：727 ℃以上，奥氏体（A）与渗碳体（ Fe3C ），以Ld表示。<br>低温莱氏体：727 ℃以下，珠光体（P）与渗碳体（ Fe3C ），以Ld’表示。</p>
+</li>
+<li><p>含碳量大于Fe3C成分（6.69%）时，合金太脆，已无实用价值</p>
+</li>
+<li><p>铁碳相图</p>
+<blockquote>
+<p>共晶产物是A与Fe3C的机械混合物，称作莱氏体，用Ld表示</p>
+<p>共析转变的产物是 F与Fe3C的机械混合物，称作珠光体，用P表示</p>
+</blockquote>
+</li>
+<li><p>铁碳相图上的合金，按成分可分为三类：<br>（1）工业纯铁(&lt;0.0218% C)组织为单相铁素体<br>（2）钢(0.0218<del>2.11%C)高温组织为单相奥氏体<br> ① 亚共析钢(0.0218</del>0.77%C)<br> ② 共析钢 （0.77%C）<br> ③ 过共析钢(0.77<del>2.11%C)<br>（3）(2.11</del>6.69%C)，铸造性能好，硬而脆</p>
+</li>
+<li><p>共析钢室温组织是100%珠光体</p>
+</li>
+<li><p>珠光体中的渗碳体称共析渗碳体</p>
+</li>
+<li><p>亚共析钢随含碳量增加，P 量增加，钢的强度、硬度升高，塑性、韧性下降。<br>0.77%C时，组织为100% P,  钢的性能即P的性能。<br>＞0.9%C，Fe3CⅡ为晶界连续网状，强度下降，但硬度仍上升。<br>＞2.11%C，组织中有以Fe3C为基的Ld’，合金太脆。</p>
+</li>
+<li><p>① 切削性能：中碳钢合适<br>② 可锻性能：低碳钢好<br>③ 焊接性能：低碳钢好<br>④ 铸造性能：共晶合金好</p>
+</li>
+<li><p>0.77%C时，组织为100%珠光体，钢的性能即珠光体的性能。<br>&lt;0.9%C，渗碳体数量增加，作为强化相阻止位错运动。<br>＞0.9%C，Fe3CⅡ为晶界连续网状， P被Fe3CⅡ割断，强度下降，但硬度仍上升。<br>＞2.11%C，组织中有以Fe3C为基的Ld’，合金太脆。</p>
+</li>
+<li><p>其他元素对钢的力学性能的影响：<br>1）锰—生成MnS，降低热脆性；部分溶于铁素体中，固溶强化。<br>2）硅—溶于铁素体中，固溶强化。<br>3）硫—S易偏析；形成FeS（熔点低于1000 ℃），产生热脆性。<br>4）磷—产生冷脆性。有轻微强化作用。</p>
+</li>
+<li><p>按钢的含碳量分类：<br>低碳钢：WC&lt;0.25% ——广泛用于工程构件<br>中碳钢： WC ：0.25~0.6% ——广泛用于机器零件<br>高碳钢： WC &gt;0.6% ——广泛用于工具制造<br>按钢的质量分类：<br>普通碳素钢： WS&lt;0.050%， WP&lt;0.045%<br>优质碳素钢： WP, WS &lt;0.035%<br>高级优质碳素钢： WS&lt;0.020% ， WP&lt;0.030%<br>按钢的用途分类：<br>碳素结构钢：制造各种工程构件和机器零件<br>碳素工具钢：制造各种刀具、量具、模具</p>
+</li>
+<li><p>碳素结构钢不进行热处理，直接使用</p>
+</li>
+<li><p>命名：<br>普通碳素碳结构钢：Q235AF：屈服强度235MPa、A等级的沸腾钢<br>优质碳素结构钢：25Mn：表示平均含碳量为0.25%而含锰量为(0.7<del>1.0)%的钢 （钢号15</del>25:碳素渗碳钢 30<del>50：碳素调质钢 55</del>65：碳素弹簧钢）<br>碳素工具钢的质量分数较高，0.65%~ 1.35%，碳素工具钢必须经过热处理后使用，如平均含碳量为0.8%的工具钢，其钢号记为“T8”</p>
+</li>
+<li><p>齿轮 选材 ：中碳优质碳素结构钢，如55钢<br>叶片选材：普通碳素结构钢，如Q195<br>锉刀选材：碳素工具钢，如T12</p>
+</li>
+<li><p>铸铁是碳含量大于2.11%、并常含有较多的硅、锰、硫、磷等元素的铁碳合金。铸铁的生产设备和工艺简单，价格便宜</p>
+</li>
+<li><p>按照碳的存在形式（总的分类），铸铁可分为：<br>白口铸铁；——碳全部以渗碳体形式存在的（组织中有Ld’） ，很少使用。<br>灰口铸铁；——碳大部分以石墨（G）形式存在的（组织中无Ld’ ），大量使用。<br>麻口铸铁；——碳部分以渗碳体、部分以石墨存在的（组织中有Ld’ ），废品。</p>
+</li>
+<li><p>铸铁的石墨化：铸铁中碳原子以石墨形态析出的过程称为石墨化。<br>石墨析出途径：Ld→G；A→G；Fe3C→3Fe+ G</p>
+</li>
+<li><p>铸铁的石墨化过程可分为如下两个阶段：<br>第一阶段：共析转变温度以上进行的石墨化；<br>第二阶段：共析转变进行的石墨化；<br>一般，铸铁在高温冷却过程中，由于具有较高的原子扩散能力，故其第一阶段的石墨化是较容易进行的，而在较低温度下的第二阶段的石墨化，则常因铸铁的成分及冷却速度等条件的不同，石墨化被部分或全部抑制</p>
+</li>
+<li><p>第一阶段石墨化进行的程度，决定铸铁中是否存在莱氏体或二次渗碳体。<br>第二阶段石墨化进行的程度决定铸铁的基本类型。</p>
+</li>
+<li><p>C：形成石墨化的元素。<br>Si：强烈促进石墨化的元素<br>硅能减弱碳和铁的亲合力，不利于渗碳体的析出，从而促进了石墨化；<br>在灰口铸铁中含有大量的硅，这就是铸铁以灰口组织出现的根本原因！<br>Mn：具有双重作用：本身是阻碍石墨化的元素，但它可以减弱S的有害性；<br>S：严重阻碍石墨化的元素；<br>P：促进石墨化的元素，但含量很低，影响不大，冷脆性。</p>
+</li>
+<li><p>铸铁的冷却速度越小，或在高温下长时间保温，均有利于石墨化。<br> 灰铸铁的性能特点：<br> ① 优良的铸造性能<br>  收缩小— G有补缩作用；流动性好—成分接近共晶点<br>② 优良的切削加工性<br>  不缠刀—G易断屑：刀具磨损小—G是一种固态润滑剂<br>③ 良好的减摩性<br>   G是一种固态润滑剂； G处可储存液态润滑剂<br>④ 良好的减震性<br>   G吸收震动波<br>⑤ 较低的缺口敏感性<br>  G本身是一种缺陷；G有一定的止裂作用<br>⑥ 较低力学性能，但抗压性能不低于钢<br>  G有切割作用；G有缩减作用<br>⑦ 锻压性能和焊接性能很差<br>塑性、韧性低；含碳量太高</p>
+</li>
+<li><p>球墨铸铁<br>成分：3.6%～3.9%C，2.2%～3.1%Si<br>性能特点：力学性能最好（有效承载面积可达70-90%），铸造性能较差</p>
+</li>
+<li><p>球化剂为镁、稀土和稀土镁。<br>常用孕育剂为硅铁和硅钙合金</p>
+</li>
+<li><p>铁碳合金共析转变的产物是珠光体</p>
+</li>
+<li><p>铁碳合金中，共晶转变的产物称为莱氏体</p>
+</li>
+<li><p>在铁碳合金中，铁素体是碳溶解在α-Fe中形成的固溶体</p>
+</li>
+<li><p>含碳量为0.77%的铁碳合金在室温时全部由珠光体组成 </p>
+</li>
+<li><p>铁碳合金的基本组织有铁素体、奥氏体、渗碳体、珠光体</p>
+</li>
+<li><p>共析钢奥氏体被快速冷却到650℃，等温20s，达到了过冷奥氏体开始转变线，但没有达到过冷奥氏体转变终了线，就被快速冷却到室温得到的组织是马氏体和珠光体</p>
+</li>
+<li><p>过共析钢只有被加热到Accm温度以上，才能得到全部奥氏体</p>
+</li>
+<li><p>在铁碳合金相图中，凡具有E点与F点之间成分的合金缓冷到1148℃时都将发生共晶转变</p>
+</li>
+<li><p>根据铁碳合金状态图，含碳量为0.5%的铁碳合金在700℃时，其组织为铁素体+珠光体</p>
+</li>
+<li><p>含碳量1%的铁碳合金的硬度高于含碳量0.5%的铁碳合金，是因为在室温时，前者的内部含有更多的 P</p>
+</li>
+<li><p>在碳素钢中，低碳钢的含碳量是低于0.25%</p>
+</li>
+<li><p>使碳钢中产生冷脆的元素是 P</p>
+</li>
+<li><p>在碳钢中，若S元素含量过多，则使钢的热脆性大大增加</p>
+</li>
+<li><p>影响铸铁石墨化程度的主要因素是化学成分和冷却速度</p>
+</li>
+<li><p>C、Si 促进石墨化</p>
+</li>
+<li><p>铸铁石墨化过程的第一、二阶段完全进行，第三阶段部分进行，其显微组织为 F + P + G</p>
+</li>
+<li><p>为了促进铸铁石墨化，可采用下述方法：增加C、Si含量，降低冷速</p>
+</li>
+</ul>
+<h3 id="钢的热处理"><a href="#钢的热处理" class="headerlink" title="钢的热处理"></a>钢的热处理</h3><ul>
+<li><blockquote>
+<p>A1 线即平衡状态下珠光体向奥氏体转变的温度线，当温度达到 A1 线时，铁碳合金中的珠光体将开始向奥氏体转变</p>
+<p>对于亚共析钢，A3 线是指在平衡状态下，铁素体全部转变为奥氏体的温度线。在加热过程中，当温度超过 A3 线时，亚共析钢中的铁素体将逐渐融入奥氏体中，直至全部转变为奥氏体。</p>
+<p>对于过共析钢，Acm 线是指在平衡状态下，二次渗碳体全部溶入奥氏体的温度线。当加热温度超过 Acm 线时，过共析钢中的二次渗碳体将逐渐溶解到奥氏体中。</p>
+</blockquote>
+</li>
+<li><p>加热分两种：一种是在A1以下加热，不发生相变；另一种是在A1以上加热，目的是获得均匀的奥氏体组织，称奥氏体化。</p>
+</li>
+<li><p>奥氏体的形成过程</p>
+<blockquote>
+<p>奥氏体晶核形成 —— 首先在铁素体与渗碳体相界形核</p>
+<p>奥氏体晶核长大</p>
+<p>残余渗碳体溶解</p>
+<p>奥氏体成分均匀化</p>
+</blockquote>
+</li>
+<li><p>亚共析钢和过共析钢的奥氏体化过程与共析钢基本相同。但由于共析铁素体或二次渗碳体的存在，要获得全部奥氏体组织，必须相应加热到Ac3或Accm以上。</p>
+</li>
+<li><p>加热至930±10 ºC，保温8 h后的奥氏体晶粒大小称本质晶粒度。</p>
+</li>
+<li><p>加热温度高、保温时间长，奥氏体晶粒粗大。<br>加热速度越快，过热度越大, 形核率越高，晶粒越细。</p>
+</li>
+<li><p>A1温度以下存在的尚未发生转变的奥氏体，称为过冷奥氏体。过冷奥氏体的转变方式有等温转变和连续冷却转变两种</p>
+</li>
+<li><p>共析钢过冷奥氏体的等温转变曲线（C曲线）</p>
+</li>
+<li><p>转变开始线与纵坐标之间的距离为孕育期。<br>孕育期越小，过冷奥氏体稳定性越小。<br>孕育期最小处称C 曲线的“鼻尖”。碳钢鼻尖处的温度为550 ℃。</p>
+</li>
+<li><p>C曲线明确表示了过冷奥氏体在不同温度下的等温转变产物。</p>
+</li>
+<li><p>过冷奥氏体在 A1到 550℃间将转变为珠光体类型组织，它是铁素体与渗碳体片层相间的机械混合物，根据片层厚薄不同，又细分为珠光体（P）、索氏体（S）和屈氏体（T）。</p>
+</li>
+<li><p>550 - 屈氏体 - 600 - 索氏体 - 650 - 珠光体 - A1</p>
+</li>
+<li><p>过冷奥氏体在550- 230 ℃ (Ms)间将转变为贝氏体类型组织，贝氏体用符号B表示。</p>
+</li>
+<li><p>上贝氏体无实用价值,下贝氏体具有良好的综合力学性能</p>
+</li>
+<li><p>当奥氏体过冷到Ms以下将转变为马氏体类型组织。<br>马氏体转变是强化钢的重要途径之一。</p>
+</li>
+<li><p>硬度是马高氏体性能的主要特点含碳量增加，其硬度增加。当含碳量大于0.6%时，其硬度趋于平缓</p>
+</li>
+<li><p>马氏体强化的主要原因是过饱和碳引起的固溶强化。此外，马氏体转变产生的组织细化也有强化作用。<br>马氏体的塑性和韧性主要取决于其亚结构的形式。针状马氏体脆性大，板条马氏体具有较好的塑性和韧性</p>
+</li>
+<li><p>亚共析钢随着碳含量的增加，C曲线位置往右移，同时Ms、Mf线住下移</p>
+</li>
+<li><p>过共析钢过冷奥氏体的等温转变,当加热温度为Ac1以上30～50 ℃时，过共析钢随着碳含量的增加，C曲线位置向左移, 同时Ms、Mf线往下移。</p>
+</li>
+<li><p>退火:将钢加热至适当温度保温，然后缓慢冷却 （炉冷）</p>
+</li>
+<li><p>退火目的：<br>调整硬度，便于切削加工。适合加工的硬度为170-250 HB。<br>消除内应力<br>均匀成分及组织，细化晶粒，为最终热处理作组织准备。 </p>
+</li>
+<li><p>完全退火: 将工件加热到Ac3+30~50 ℃保温后缓冷至500 ℃左右的退火工艺，主要用于亚共析钢 (过共析钢不宜)</p>
+</li>
+<li><p>对于有网状二次渗碳体的过共析钢，球化退火前应先进行正火，以消除网状。</p>
+</li>
+<li><p>扩散退火（均匀化退火）：加热温度高（一般在Ac3或Accm以上150~300 ℃），保温时间长（10 h以上）</p>
+</li>
+<li><p><strong>再结晶退火</strong> 目的：消除加工硬化、提高塑性、改善切削加工及成形性能。<br>特点：加热温度通常比理论再结晶温度高100~200 ℃</p>
+</li>
+<li><p>正火是将亚共析钢加热到Ac3+30~ 50 ℃，共析钢加热到Ac1+30<del>50 ℃，过共析钢加热到Accm+30</del> 50 ℃保温后空冷的工艺。</p>
+</li>
+<li><p>正火与退火相比，操作简单，生产周期短，效率高，珠光体组织更细，强度和硬度更高</p>
+</li>
+<li><p>要改善切削性能，低碳钢用正火，中碳钢用退火或正火，高碳钢用球化退火。</p>
+</li>
+<li><p>淬火是将钢加热到Ac1或Ac3以上30~50℃，保温后以大于vk速度冷却，使奥氏体转变为马氏体的热处理工艺。</p>
+</li>
+<li><p>淬火目的是为获得马氏体组织，提高钢的性能</p>
+</li>
+<li><p>亚共析钢：淬火温度为Ac3+30~50 ℃</p>
+</li>
+<li><p>共析钢：淬火温度为Ac1+30~50 ℃</p>
+</li>
+<li><p>过共析钢：淬火温度: Ac1+30~50 ℃</p>
+</li>
+<li><p>淬火是比较难操作的一种热处理工艺。<br>一方面：为得到马氏体组织需要快冷；<br>另一方面：快冷会导致很大的内应力，使钢件容易发生变形及开裂<br>理想淬火曲线：慢冷（减少热应力）-快冷-慢冷（减<br>少组织应力）。</p>
+</li>
+<li><p>淬透性是指钢在淬火时获得淬硬层深度的能力</p>
+</li>
+<li><p>共析钢的淬透性好；</p>
+</li>
+<li><p>合金元素：除Co、Al外，其他使淬透性提高；</p>
+</li>
+<li><p>回火的对象是淬火钢，淬火钢存在很大内应力，容易导致工件的变形甚至开裂。</p>
+</li>
+<li><p>钢件淬火后的组织为马氏体和残余奥氏体，这两种组织都是不稳定的</p>
+</li>
+<li><p>回火是指将淬火钢加热到A1以下的某温度保温，让马氏体发生分解</p>
+</li>
+<li><p>回火的目的：<br>减少或消除淬火内应力，防止变形或开裂；<br>获得所需要的力学性能。淬火钢一般硬度高，脆性大，回火可调整硬度、韧性；<br>未经淬火的钢回火无意义。钢经淬火后应立即进行回火。回火决定了钢在使用状态的组织和寿命</p>
+</li>
+<li><p>回火时应避开250~400 ℃，避免不可逆回火脆性</p>
+</li>
+<li><p>淬火加高温回火的热处理称作调质处理</p>
+</li>
+<li><p>化学热处理最常用的是渗碳、渗氮和氰化。</p>
+</li>
+<li><p>渗碳后的热处理：淬火+低温回火</p>
+</li>
+<li><p>奥氏体化温度越高，保温时间越长，过冷奥氏体越稳定，钢的淬透性越好</p>
+</li>
+<li><p>过冷奥氏体的冷却方式通常有等温处理和连续冷却</p>
+</li>
+<li><p>铁碳相图中A3线是冷却时，由奥氏体转变为铁素体的转变线</p>
+</li>
+<li><p>转变开始线与纵坐标之间的距离为孕育期。孕育期越短，说明过冷奥氏体稳定性越小，越容易发生转变</p>
+</li>
+<li><p>奥氏体的形成包括奥氏体晶核的形成，奥氏体晶核的长大，剩余渗碳体溶解，奥氏体成分均匀化</p>
+</li>
+<li><p>过冷奥氏体等温转变温度不同，得到的产物也不同，等温温度从高到低，所得到的的产物依次是P,S,T,B</p>
+</li>
+<li><p>过冷奥氏体等温转变曲线是表示高温下奥氏体急速冷却到临界点A1 以下在各不同温度保温的过程中，转变量与转变时间的关系曲线</p>
+</li>
+<li><p>珠光体、索氏体、马氏体、贝氏体都是过冷奥氏体等温转变的产物</p>
+</li>
+<li><p>过冷奥氏体等温转变产物包括：珠光体、贝氏体、马氏体三大类</p>
+</li>
+<li><p>钢中马氏体转变时，残余奥氏体含量主要取决于奥氏体中碳、合金元素的含量，冷却温度</p>
+</li>
+<li><p>马氏体转变的开始温度Ms和终了温度Mf主要取决于奥氏体中碳、合金元素的含量</p>
+</li>
+<li><p>马氏体转变时，奥氏体中的碳全部保留到马氏体中，属于无扩散型相变</p>
+</li>
+<li><p>马氏体转变是不完全的，转变后总有残余奥氏体存在</p>
+</li>
+<li><p>马氏体硬度高，比容比比奥氏体大，电阻率高</p>
+</li>
+<li><p>正火处理后，由于晶粒的细化和组织均匀，钢的硬度会有所降低，但塑性和韧性会得到提高。这种硬度的降低有助于改善钢的切削性能和加工性能</p>
+</li>
+<li><p>亚共析钢正火后的组织是 F + S</p>
+</li>
+<li><p>正火处理后的钢材已经具有较好的塑性和韧性，一般不需要再进行淬火处理</p>
+</li>
+<li><p>正火是将钢加热到全部奥氏体状态后再进行空冷的热处理工艺</p>
+</li>
+<li><p>正火处理的主要目的是通过加热和缓慢冷却，使钢的晶粒细化，组织均匀，从而提高钢的塑性和韧性。虽然正火处理可以改善切削性能，但这不是其主要目的</p>
+</li>
+<li><p>正火处理的温度范围一般为800-900℃</p>
+</li>
+<li><p>低碳钢（含量0.25%以下）正火可以细化晶粒，提高其硬度和强度</p>
+</li>
+<li><p>中碳钢正火加热温度应稍高于Ac3线</p>
+</li>
+<li><p>正火处理后，钢的硬度一般会显著降低</p>
+</li>
+<li><p>淬火+高温回火&#x3D;调制</p>
+</li>
+<li><p>钢在回火时的组织变化有马氏体分解，残余奥氏体转变，碳化物类型转化和长大，基体再结晶</p>
+</li>
+<li><p>感应加热表面淬火的淬硬深度,主要决定于感应电流的频率</p>
+<blockquote>
+<p> 1、下列组织中，硬度最高的是（B  ）<br>      A.铁素体           B.渗碳体           C.珠光体           D.奥氏体</p>
+</blockquote>
+</li>
+</ul>
+<blockquote>
+<p>2、铁素体的力学性能特点是（ D ）<br>         A.强度高，塑性好，硬度高 B.强度低，塑性差，硬度低<br>         C.强度高，塑性好，硬度低 D.强度低，塑性好，硬度低</p>
+<p>3、碳在铁素体中的最大溶解度为（  A ）<br>   A.0.0218 %   B. 2.11 %     C. 0.77 %     D.4.3 %</p>
+<p>4、碳在奥氏体中的最大溶解度为（  C）<br>          A. 0.77 %          B. 0.0218 %      　  C.2.11 %           D.4.3 %</p>
+<p>5、一次渗碳体是从（  D）<br>A. 奥氏体中析出的    B.铁素体中析出的<br>C. 珠光体中析出的    D. 钢液中析出的</p>
+<p>6、二次渗碳体是从（ C ）<br>A. 铁素体中析出的    B. 钢液中析出的<br>C.奥氏体中析出的     D.珠光体中析出的</p>
+<p>7、共析钢的过冷奥氏体在550～350 ℃温度区间等温转变时，所形成的组织是（ C ）<br>A. 下贝氏体           B. 索氏体         C.上贝氏体         D.珠光体</p>
+<p>8、共析钢的过冷奥氏体在300 ℃左右等温转变时，所形成的组织是（ B ）。<br>    A. 上贝氏体           B.下贝氏体         C. 索氏体        D.珠光体</p>
+</blockquote>
+<h3 id="合金钢"><a href="#合金钢" class="headerlink" title="合金钢"></a>合金钢</h3><ul>
+<li>工业用钢按化学成分分为碳素钢和合金钢两大类</li>
+<li>碳钢缺点：淬透性低，强度和屈强比较低，回火稳定性差 </li>
+<li>低合金钢（合金元素总量小于5%），合金钢（合金元素总含量大于5%）<blockquote>
+<p>合金结构钢：如60Si2Mn钢，其平均含碳量约0.6%，含硅2%及含锰1%。<br>滚动轴承钢：如“滚铬15”（即GCr15），即是铬平均含量为1.5%滚动轴承钢。<br>合金工具钢：例如9Mn2V钢的平均含碳量为（0.85%-0.95）%；而CrMn钢中的平均含碳量则为（1.3-1.5）%。</p>
+</blockquote>
+</li>
+<li>白口铁：大部分碳以Fe3C形式存在，组织以莱氏体为主，硬度高、但脆性大，不易切削，不宜进行机械加工。</li>
+<li>灰口铸铁：大部分碳以石墨形式存在，组织为铁素体和珠光体，质地软，易切削，铸造性能好。</li>
+<li>钢：铁素体、珠光体和渗碳体，具有较好的机械性能，根据碳含量的不同可应用于切削、铸造、锻压等。硬度、强度较好，塑性、韧性适宜</li>
+<li>合金元素在钢中的存在形式<br> 1）溶于铁素体，起固溶强化作用<br>Si、Mn对强度、硬度提高显著。Cr、Ni在适当范围内提高韧性。<br>2）形成碳化物，起强化相作用</li>
+<li>面心立方  Ni、Mn、Cu、C、N 等是扩大奥氏体相区（A区）的元素</li>
+<li>体心立方晶格 Cr、Mo、Si、Ti、W、Al等是缩小奥氏体相区的元素</li>
+<li>所有合金元素均使E点和S点左移，即这两点的含碳量下降</li>
+<li>合金钢的奥氏体成分均匀化比碳钢更缓慢</li>
+<li>强碳化物形成元素Ti、V、Nb等，强烈阻碍奥氏体晶粒长大的作用，在合金钢中起细化晶粒的作用。</li>
+<li>合金钢的回火稳定性高—即合金钢在较高温度回火时仍然保持较高的硬度</li>
+<li>除Mn和P外，大多数合金元素都阻碍奥氏体晶粒长大。<br>除Co外，大多数溶于奥氏体的合金元素都使过冷奥氏体的稳定性增大。<br>除Co、Al外，大多数合金元素在不同程度上使马氏体转变Ms和Mf线降低并增加了残余奥氏体的含量。<blockquote>
+<p>低合金高强度钢具有高强度、高韧性、良好的焊接性能和冷成型性能</p>
+<p>Mn的作用是强化铁素体；增加珠光体的量。</p>
+<p>V、Ti、Nb等起细化晶粒和弥散强化作用。 </p>
+<p>一般不进行热处理，在热轧正火态使用</p>
+<p>调质钢具有良好的综合力学性能、良好的淬透性。热处理：淬火+高温回火（调制）</p>
+<p>渗碳钢表面高硬度、高耐磨性，心部韧性和强度高，即表硬里韧。有良好的热处理性能，如淬透性和渗碳能力。热处理：淬火+低温回火</p>
+<p>滚动轴承钢是过共析钢。热处理：球化退火+淬火+低温回火。</p>
+<p>碳素工具钢：共有七个牌号：T7 ~ T13  高碳（0.65~1.35%C） 热处理：正火+球化退火+淬火+低温回火</p>
+<p>模具钢 Cr12型模具钢也是莱氏体钢 热处理为：淬火+低温回火(冷作模具钢) 淬火+高温回火(热作模具钢)</p>
+<p>耐磨钢：铸态组织为奥氏体+碳化物，性能硬而脆。热处理采用水韧处理：即将钢加热到1100 ℃，使碳化物溶入奥氏体，并进行水淬。</p>
+</blockquote>
+</li>
+<li>Cr：是提高耐蚀性的主要元素<br>① 形成稳定致密的Cr2O3氧化膜。<br>② Cr含量大于13%时，形成单相铁素体组织。<br>③ 提高基体电极电位</li>
+<li>为使高碳钢便于机械加工，常预先进行球化退火</li>
+<li>钢经调质处理后获得的组织是回火索氏体</li>
+<li>淬火钢回火时，随着回火温度的升高，强度和硬度降低，塑性和韧性升高   </li>
+<li>过共析钢正常的淬火加热温度是Ac1 +30～50 ℃</li>
+<li>为消除碳素工具钢中的网状渗碳体而进行正火，其加热温度是Accm＋(30～50) ℃</li>
+<li>为消除金属在冷变形后的加工硬化现象，需进行的热处理为再结晶退火</li>
+<li>与合金钢相比，碳钢的主要缺点为淬透性低，回火稳定性差，耐热耐磨耐蚀性差</li>
+<li>桥梁建造常选用的合金钢是Q345</li>
+<li>合金元素对淬透性的作用，其前提是合金元素溶于奥氏体</li>
+<li>合金元素可通过下列方式提高钢的强度：固溶强化、析出弥散强化、增加珠光含量、细化晶粒强化</li>
+<li>加入合金元素W,Mo可以抑制第二类回火脆性</li>
+<li>属于强碳化物形成元素的是Ti,Zr,V,Nb</li>
+<li>扩大奥氏体区的主要合金元素有Ni,Mn,C,N,Co,Cu</li>
+<li>调质钢在热处理过程中，淬火后的硬度比回火后的硬度高(原因：淬火是将钢加热到一定温度后迅速冷却，以获得马氏体组织，此时硬度最高。而回火是将淬火后的钢再次加热到一定温度并保温，然后冷却，以降低硬度，提高韧性)</li>
+<li>调质钢中常用的合金元素包括锰、硅、铬等</li>
+<li>常见的调质钢大都属于中碳低合金钢</li>
+<li>制造小尺寸渗碳零件应该选择低淬透性渗碳钢</li>
+<li>渗碳钢常用于制造齿轮、轴承、弹簧</li>
+<li>渗碳钢的热处理工艺通常包括淬火和回火</li>
+<li>渗碳钢的碳含量通常在0.2%到0.5%之间，渗碳钢是一种通过表面渗碳工艺提高表面硬度和耐磨性的钢材，碳含量过高会降低其韧性</li>
+<li>铁素体不锈钢、马氏体不锈钢和奥氏体不锈钢比较而言，奥氏体不锈钢具有较强的耐腐蚀性</li>
+<li>对奥氏体不锈钢进行固溶处理的目的是为了消除碳化物</li>
+</ul>
+<h3 id="后两章"><a href="#后两章" class="headerlink" title="后两章"></a>后两章</h3><ul>
+<li>纯铜为面心立方晶格，无同素异构转变</li>
+<li>除黄铜和白铜外的其他铜合金统称为青铜。 <blockquote>
+<p>H（黄） + 表示铜平均百分含量的数字，如H68</p>
+<p>普通白铜牌号：B+镍的平均百分含量，如B5</p>
+<p>加工青铜的牌号为：Q +主加元素符号及其平均百分含量+其他元素平均百分含量<br>如QSn4-3（含4%Sn、3%Zn）</p>
+</blockquote>
+</li>
+<li>纯铝具有面心立方晶格，无同素异构转变，无磁性（一般固溶强化、冷变形强化），不能进行热处理强化，常利用加工硬化提高其强度<br>防锈铝合金中，Mn和Mg主要作用是提高抗蚀能力和塑性，并起固溶强化作用</li>
+<li>在进行材料和成形工艺选择时，主要从三个方面予以考虑：零件的负载和工作情况；对零件尺寸和质量的限制；零件的重要程度</li>
+<li>选材的一般原则有 使用性原则，工艺性原则，经济性原则</li>
+<li>黄铜 铜锌合金 ，白铜 铜镍合金 ， 青铜 铜锡合金 紫铜为纯铜</li>
+<li>铝合金淬火后其晶格类型不会改变</li>
+<li>根据铝合金的 加工工艺特性，可分为铸造铝合金和变形铝合金两大类</li>
+<li>固溶处理后的铝合金在随后的时效过程中，强度是提高的，塑性是下降的</li>
+<li>轴承合金中在软基体上分布着的硬质点一般为化合物，其体积约占15∼30%</li>
+<li>淬火是一种通过快速冷却来获得马氏体组织的热处理方法，可以显著提高钛合金的强度。而退火、正火和回火主要用于改善钛合金的塑性和韧性</li>
+<li>钛存在同素异构转变，高温为体心立方结构，低温密排六方结构</li>
+<li>从经济性角度出发，在满足零件机械性能的前提下尽量选用碳钢和铸铁（尤其是球墨铸铁）</li>
+<li>要求材料具有较好的抗拉强度，屈服强度和屈强比。一般选用钢材</li>
+<li>轴类零件所有的材料首先应具有较好弯曲疲劳强度</li>
+<li>表面光洁、无形状突变、表面无微裂纹等都可提高零件的抗疲劳能力</li>
+<li>对高速旋转的零件，应选用屈服强度高的材料，以防止巨大的离心力可能超过材料的屈服强度而使零件发生塑性变形</li>
+<li>零件的失效有三种形式，即过量变形、断裂和表面损伤失效</li>
+<li>含碳量的增加，锻造强度范围缩小。合金元素含量愈多，则锻造性愈差，碳含量愈低则冲压性能愈好，碳当量低的碳素钢和合金钢都具有良好的焊接性能</li>
+<li>各类铸铁具有良好的铸造性能，以灰铸铁为最佳，有良好的切削加工性能。但可锻性和可焊性极差</li>
+<li>灰铸铁由于石墨的存在，故不能进行热处理强化。</li>
+<li>轴类零件的选材，应具有良好的综合力学性能；高的疲劳强度；良好的耐磨性。</li>
+<li>要求不高的轴：碳素结构钢 要求较高的轴：中碳优质碳素结构钢 如使用滑动轴承，则可选用合金调质钢</li>
+<li>以C6132车床主轴为例，用45号钢制造，其工艺路线为：下料→锻造→正火→粗加工→调质→精车→表面淬火、低温回火→磨削→成品。<br>正火的目的是为了得到合适的硬度，以便于切削加工，改善组织，为调质处理作好准备。<br>调质是为了使主轴得到高的综合力学性能和疲劳强度。<br>表面淬火、低温回火是为了提高硬度，增加耐磨性，提高主轴的寿命。</li>
+<li>齿轮类零件的选材：大直径大模数齿轮，可选用铸铁或铸钢；转速较低，载荷较小，不受冲击齿轮,选用碳素调质钢</li>
+<li>转速较高，载荷较大，受轻微冲击:合金调质钢</li>
+<li>转速高，载荷大，承受冲击的齿轮：合金渗碳钢</li>
+<li>喷丸处理不仅是为了消除氧化皮，使表面光洁，有利于疲劳强度的提高</li>
+<li>箱体类零件的选材：</li>
+<li>以承受应力为主的机座零件，应选用灰铸铁</li>
+<li>受力较大、要求强度高、冲击韧性好，应选用铸钢</li>
+<li>受力不大，要求自重轻，导热性、耐蚀性良好，应选用铸造铝合金</li>
+<li>重载、低速、大直径轴承 ：灰铸铁</li>
+<li>中等载荷，中、高速运转的轴承：铸造青铜</li>
+<li>中等载荷、重载荷、高速轴承：中等载荷、重载荷、高速轴承</li>
+<li>Cr元素使S点（共析点）和E点左移，缩小奥氏体区<br>高温淬火的目的是为了使合金元素尽可能多地溶入奥氏体<br>回火温度越低，硬度越高。合金钢会发生二次硬化</li>
+</ul>
+<hr>
+<h2 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h2><h5 id="有四个碳素钢试样进行淬火"><a href="#有四个碳素钢试样进行淬火" class="headerlink" title="有四个碳素钢试样进行淬火"></a>有四个碳素钢试样进行淬火</h5><ul>
+<li>（1）wC &#x3D; 0.3%，加热至Ac1与Ac3之间；</li>
+<li>（2）wC &#x3D; 0.45%，加热至Ac3以上30 ~ 50 ℃ ；</li>
+<li>（3）wC &#x3D; 1.2 %，加热至Ac1以上20 ~ 30 ℃ ；</li>
+<li>（4）wC &#x3D; 1.2 %，加热至Accm以上30 ~ 50 ℃ ；<br>适当保温后水中淬火，哪个试样硬度最高？哪个试样硬度最低？说明其原因。</li>
+</ul>
+<p><strong>答案</strong>：碳含量越高，硬度越高。</p>
+<ul>
+<li>且（1）的淬火温度过低，尚有一部分铁素体未转化为奥氏体，保留在淬火后组织，造成硬度不足。故（1）硬度最低。</li>
+<li>（3）为正确的淬火温度，（4）淬火温度过高，淬火后残余奥氏体的含量增加，硬度降低，故（3）硬度最高。</li>
+</ul>
+<h3 id="加油-！！！"><a href="#加油-！！！" class="headerlink" title="加油 ！！！"></a>加油 ！！！</h3></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="http://zjuhcsn.github.io">杭城少年</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://zjuhcsn.github.io/2025/03/08/%E5%B7%A5%E7%A8%8B%E6%9D%90%E6%96%99/">http://zjuhcsn.github.io/2025/03/08/%E5%B7%A5%E7%A8%8B%E6%9D%90%E6%96%99/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="http://zjuhcsn.github.io" target="_blank">WEDM's Blog in ZJU</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E4%B8%8A%E8%BF%87%E7%9A%84%E8%AF%BE/">上过的课</a></div><div class="post-share"><div class="social-share" data-image="https://s21.ax1x.com/2024/09/26/pAll5cj.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i>爆点金币给 WEDM 吧</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/wechat.jpg" target="_blank"><img class="post-qr-code-img" src="/img/wechat.jpg"/></a><div class="post-qr-code-desc"></div></li><li class="reward-item"><a href="/img/alipay.jpg" target="_blank"><img class="post-qr-code-img" src="/img/alipay.jpg"/></a><div class="post-qr-code-desc"></div></li></ul></div></div><nav class="pagination-post" id="pagination"><a class="prev-post pull-left" href="/2025/01/09/%E7%94%B5%E5%B7%A5%E7%94%B5%E5%AD%90/" title="电工电子"><img class="cover" src="https://s21.ax1x.com/2025/01/09/pECNIAO.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">电工电子</div></div></a><a class="next-post pull-right" href="/2025/03/08/%E4%B8%96%E7%95%8C%E7%BB%8F%E6%B5%8E%E5%AF%BC%E8%AE%BA/" title="世界经济导论"><img class="cover" src="https://s21.ax1x.com/2024/09/26/pAll5cj.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">世界经济导论</div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a href="/2024/08/22/%E5%B7%A5%E7%A8%8B%E8%AE%AD%E7%BB%83/" title="工程训练"><img class="cover" src="https://s21.ax1x.com/2024/09/28/pA19JQe.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-08-22</div><div class="title">工程训练</div></div></a><a href="/2024/09/24/%E6%B0%B4%E8%AF%BE%E6%9D%82%E8%AF%84/" title="水课杂评"><img class="cover" src="https://s21.ax1x.com/2024/09/28/pA1CoNt.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-09-24</div><div class="title">水课杂评</div></div></a><a href="/2024/08/20/%E7%94%B5%E5%B7%A5%E8%AE%AD%E7%94%B2/" title="电工训甲"><img class="cover" src="https://s21.ax1x.com/2024/09/28/pA19YsH.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-08-20</div><div class="title">电工训甲</div></div></a><a href="/2025/01/09/%E7%94%B5%E5%B7%A5%E7%94%B5%E5%AD%90/" title="电工电子"><img class="cover" src="https://s21.ax1x.com/2025/01/09/pECNIAO.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2025-01-09</div><div class="title">电工电子</div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info is-center"><div class="avatar-img"><img src="https://s21.ax1x.com/2024/09/26/pAlle00.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">杭城少年</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">21</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来到浙江大学 WEDM 的博客</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E4%B8%A4%E7%AB%A0"><span class="toc-number">1.</span> <span class="toc-text">前两章</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9D%82%E7%A2%8E%E7%9F%A5%E8%AF%86"><span class="toc-number">1.0.1.</span> <span class="toc-text">杂碎知识</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%99%B6%E4%BD%93-%E6%BB%91%E7%A7%BB"><span class="toc-number">1.0.2.</span> <span class="toc-text">晶体&amp;滑移</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%87%91%E5%B1%9E"><span class="toc-number">1.0.3.</span> <span class="toc-text">金属</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%93%81%E7%A2%B3%E5%90%88%E9%87%91"><span class="toc-number">1.1.</span> <span class="toc-text">铁碳合金</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%92%A2%E7%9A%84%E7%83%AD%E5%A4%84%E7%90%86"><span class="toc-number">1.2.</span> <span class="toc-text">钢的热处理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%90%88%E9%87%91%E9%92%A2"><span class="toc-number">1.3.</span> <span class="toc-text">合金钢</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%90%8E%E4%B8%A4%E7%AB%A0"><span class="toc-number">1.4.</span> <span class="toc-text">后两章</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A1%A5%E5%85%85"><span class="toc-number">2.</span> <span class="toc-text">补充</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%9C%89%E5%9B%9B%E4%B8%AA%E7%A2%B3%E7%B4%A0%E9%92%A2%E8%AF%95%E6%A0%B7%E8%BF%9B%E8%A1%8C%E6%B7%AC%E7%81%AB"><span class="toc-number">2.0.0.1.</span> <span class="toc-text">有四个碳素钢试样进行淬火</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8A%A0%E6%B2%B9-%EF%BC%81%EF%BC%81%EF%BC%81"><span class="toc-number">2.1.</span> <span class="toc-text">加油 ！！！</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2025/03/24/%E9%AB%98%E5%85%89%E7%95%99%E6%A1%A3/" title="高光留档"><img src="https://s21.ax1x.com/2024/09/26/pAll5cj.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="高光留档"/></a><div class="content"><a class="title" href="/2025/03/24/%E9%AB%98%E5%85%89%E7%95%99%E6%A1%A3/" title="高光留档">高光留档</a><time datetime="2025-03-24T05:39:05.000Z" title="发表于 2025-03-24 13:39:05">2025-03-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/03/24/%E6%8D%A2%E6%9C%BA%E6%8C%87%E5%8D%97pro/" title="换机指南pro"><img src="https://s21.ax1x.com/2024/09/26/pAll5cj.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="换机指南pro"/></a><div class="content"><a class="title" href="/2025/03/24/%E6%8D%A2%E6%9C%BA%E6%8C%87%E5%8D%97pro/" title="换机指南pro">换机指南pro</a><time datetime="2025-03-24T05:08:33.000Z" title="发表于 2025-03-24 13:08:33">2025-03-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/03/24/%E6%8D%A2%E6%9C%BA%E6%8C%87%E5%8D%97/" title="换机指南"><img src="https://s21.ax1x.com/2024/09/26/pAll5cj.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="换机指南"/></a><div class="content"><a class="title" href="/2025/03/24/%E6%8D%A2%E6%9C%BA%E6%8C%87%E5%8D%97/" title="换机指南">换机指南</a><time datetime="2025-03-24T05:01:41.000Z" title="发表于 2025-03-24 13:01:41">2025-03-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/03/08/%E6%9D%90%E5%8A%9B%E5%AE%9E%E9%AA%8C/" title="材力实验"><img src="https://s21.ax1x.com/2024/09/26/pAll5cj.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="材力实验"/></a><div class="content"><a class="title" href="/2025/03/08/%E6%9D%90%E5%8A%9B%E5%AE%9E%E9%AA%8C/" title="材力实验">材力实验</a><time datetime="2025-03-08T08:35:28.000Z" title="发表于 2025-03-08 16:35:28">2025-03-08</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/03/08/%E5%A4%A7%E7%89%A9%E5%AE%9E%E9%AA%8C/" title="大物实验"><img src="https://s21.ax1x.com/2024/09/26/pAll5cj.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="大物实验"/></a><div class="content"><a class="title" href="/2025/03/08/%E5%A4%A7%E7%89%A9%E5%AE%9E%E9%AA%8C/" title="大物实验">大物实验</a><time datetime="2025-03-08T08:35:18.000Z" title="发表于 2025-03-08 16:35:18">2025-03-08</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2024 - 2025 By 杭城少年</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.0.0-b2"></script><script src="/js/main.js?v=5.0.0-b2"></script><div class="js-pjax"></div><canvas class="fireworks" mobile="true"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/fireworks.min.js"></script><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="true"></script><script defer="defer" id="fluttering_ribbon" mobile="true" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/canvas-fluttering-ribbon.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
