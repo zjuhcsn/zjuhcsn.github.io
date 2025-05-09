@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  background: #1a1a1a;
+}
+body .orb-container {
+  position: fixed;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+body .orb-container .orb {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 20px currentColor;
+  transition: opacity 0.3s;
+}
