@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let mouseY = window.innerHeight/2;
   let containerX = mouseX;
   let containerY = mouseY;
-  const ease = 0.15;
+  const ease = 0.25;
   const radius = 45;
   let angle = 0;
 
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
     container.style.left = `${containerX}px`;
     container.style.top = `${containerY}px`;
 
-    const orbitSpeed = 1.2;
+    const orbitSpeed = 1.5;
     const spinSpeed = 10;
     
     orbs.forEach((orb, index) => {
